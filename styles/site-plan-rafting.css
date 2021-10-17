@@ -32,9 +32,9 @@ Fonts are separated by a | */
 
 body {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0;
   padding: 4em;
-  font-size: 18px;
+  font-size: 0;
   text-align: center;
 }
 img {
@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -111,7 +112,7 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -162,4 +163,46 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.home-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.book, .join {
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.msg {
+  background-color: #396e94;
+  line-height: 1.5em;
+  padding: 35px;
+}
+.msg p {
+  font-size: .8em;
+  padding: 15px;
+}
+.icon {
+  padding-top: 10px;
+}
+#logo_link {
+  padding-top: 5px;
+}
+footer {
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapid-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid;
+}
+main section img {
+  box-sizing: border-box;
 }
