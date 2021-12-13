@@ -5,29 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 1</title>
-    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="trail.css">
 </head>
 <body>
-<header>
-    <a id="hiking-logo" href="trail_home.html">
-        <img class="logo" src="hiking-logo.png" width="75" alt="hiking logo">   
-    </a>
-    <nav>
-        <a href="trail_home.html">Home</a>
-        <a href="trail_page1.html">Page 1</a>
-        <a href="trail_page2.html">Page 2</a>
-        <a href="site-plan.html">Site Plan</a>
-    </nav>
-</header>
+<div id="content">    
+    <header>
+        <a id="hiking-logo" href="trail_home.html">
+            <img class="logo" src="hiking-logo.png" width="75" alt="hiking logo">   
+        </a>
+        <nav>
+            <a href="trail_home.html">Home</a>
+            <a href="trail_page1.html">Page 1</a>
+            <a href="trail_page2.html">Page 2</a>
+            <a href="site-plan.html">Site Plan</a>
+        </nav>
+    </header>
     <div id="hero-1">
-        <div id="hero page1">
+        <div id="hero-page1">
             <img id="forest" src="page1img.jpg" alt="forest hiking">
         </div>
     </div>
 <p>On this site you will get all of the quality trail service you will ever need! Here we provide a map where you can see visually the maps and the trails that come with it. Showing the traffic at each individual trail and what difficulty they are. Making it simple for all, young and old, to enjoy the great outdoors!</p> 
-<div>
+<div class="desert">
     <img src="desert.jfif" alt="desert">
 </div>
+<div id="feedback"></div>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+         <li>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="user_name" />
+         </li>
+         <li>
+           <label for="mail">E-mail:</label>
+           <input type="email" id="mail" name="user_email" />
+         </li>
+         <li>
+           <label for="msg">Message:</label>
+           <textarea id="msg" name="user_message"></textarea>
+         </li>
+         <li class="button">
+            <button type="submit">Apply Today!</button>
+          </li>
+</div>          
 <footer>
     <h3>Trailfun &copy; 20XX - Drew Moldenhauer</h3>
     <h3><a href="site-plan.html">Site Plan</a></h3>
@@ -43,5 +63,6 @@
         </a>
     </div>
 </footer>
+</div>
 </body>
 </html>

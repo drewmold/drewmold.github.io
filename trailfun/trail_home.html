@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="trail.css">
 </head>
 <body>
-<header>
-    <a id="hiking-logo" href="trail_home.html">
-        <img class="logo" src="hiking-logo.png" width="75" alt="hiking logo">   
-    </a>
-    <nav>
-        <a href="trail_home.html">Home</a>
-        <a href="trail_page1.html">Page 1</a>
-        <a href="trail_page2.html">Page 2</a>
-    </nav>
-</header>
+<div id="content">
+    <header>
+        <a id="hiking-logo" href="trail_home.html">
+            <img class="logo" src="hiking-logo.png" width="75" alt="hiking logo">   
+        </a>
+        <nav>
+            <a href="trail_home.html">Home</a>
+            <a href="trail_page1.html">Page 1</a>
+            <a href="trail_page2.html">Page 2</a>
+            <a href="site-plan.html">Site Plan</a>
+        </nav>
+    </header>
 <div id="hero">
     <div id="hero-box">
         <img id="hero-img" src="hiking-front.jfif" alt="People hiking">
@@ -27,15 +29,28 @@
         <div class='button-box'>
             <a class='book' href="rates.html">Find a Trail Now</a>
         </div>
-    <div>
-        <img src="snow.jfif" alt="snow">
-        <img src="river.jfif" alt="river">
-        <img src="bryce.jfif" alt="bryce">
-        <img src="treeees.jfif" alt="trees">
-    </div>    
     </section>
 </div>
-<p>I want to build a website where people may come and have an easy and understandable way of seeing all the trails and hikes in the area. It will be a social platform where users can upload their own suggestions and advice for specific hikes. It will be a differ from all the other sites because this one would give them access to the interaction with others who can give real time advice. What better way to find your group of adventure friends than an online hiking suggestion website? As you  can see it will help so many hikers come together and appreciate the great outdoors.</p>  <!-- change this -->
+<main class="home-grid">
+    <section class="snow-card">
+        <img class="card-img" src="snow.jfif" alt="snow">
+        <h2>Snowshoeing and Camping!</h2>
+    </section>
+    <section class="river-card">
+        <img class="card-img" src="river.jfif" alt="river">
+        <h2>Camp along the river!</h2>
+    </section>
+    <section class="bryce-card">
+        <img class="card-img" src="bryce.jfif" alt="bryce">
+        <h2>Travel to new places!</h2>
+    </section>
+    <div id="background"></div>
+    <img class="trees" src="road.jfif" alt="road">
+    <section class="msg">
+        <p>I want to build a website where people may come and have an easy and understandable way of seeing all the trails and hikes in the area. It will be a social platform where users can upload their own suggestions and advice for specific hikes. It will be a differ from all the other sites because this one would give them access to the interaction with others who can give real time advice. What better way to find your group of adventure friends than an online hiking suggestion website? As you  can see it will help so many hikers come together and appreciate the great outdoors.</p>  <!-- change this -->
+        <a class='join' href="rivers.html">Apply Today</a>
+    </section>   
+</main>
 <footer>
     <h3>Trailfun &copy; 20XX - Drew Moldenhauer</h3>
     <h3><a href="site-plan.html">Site Plan</a></h3>
@@ -51,6 +66,7 @@
         </a>
     </div>
 </footer>
+</div>
 </body>
 
 </html>
